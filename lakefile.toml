@@ -1,0 +1,10 @@
+name = "todo-list"
+version = "0.1.0"
+defaultTargets = ["todo-list"]
+
+[[lean_lib]]
+name = "TodoList"
+
+[[lean_exe]]
+name = "todo-list"
+root = "Main"
