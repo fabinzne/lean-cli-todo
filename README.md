@@ -23,32 +23,32 @@ Make sure you have Lean 4 installed on your system.
 
 ### Commands
 
-- `./todo help` - Show help information
-- `./todo list` - List all todos in table format
-- `./todo read <name>` - Show a specific todo
-- `./todo create <name>` - Create a new todo
-- `./todo update <name> <status>` - Update todo status (true/false)
+- `.lake/build/bin/todo-list help` - Show help information
+- `.lake/build/bin/todo-list list` - List all todos in table format
+- `.lake/build/bin/todo-list read <name>` - Show a specific todo
+- `.lake/build/bin/todo-list create <name>` - Create a new todo
+- `.lake/build/bin/todo-list update <name> <status>` - Update todo status (true/false)
 
 ### Examples
 
 ```bash
 # Create a new todo
-./todo create "Learn Lean 4"
+.lake/build/bin/todo-list create "Learn Lean 4"
 
 # List all todos
-./todo list
+.lake/build/bin/todo-list list
 
 # Read a specific todo
-./todo read "Learn Lean 4"
+.lake/build/bin/todo-list read "Learn Lean 4"
 
 # Mark a todo as done
-./todo update "Learn Lean 4" true
+.lake/build/bin/todo-list update "Learn Lean 4" true
 
 # Mark a todo as pending
-./todo update "Learn Lean 4" false
+.lake/build/bin/todo-list update "Learn Lean 4" false
 
 # Show help
-./todo help
+.lake/build/bin/todo-list help
 ```
 
 ### Sample Output
